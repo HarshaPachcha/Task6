@@ -59,10 +59,10 @@ GROUP BY
     EXTRACT(MONTH FROM order_date)
 ORDER BY 
     year, month;
-'''
+```
 ### 2. Top 3 Months by Revenue
 
-'''sql
+```sql
 SELECT 
     EXTRACT(YEAR FROM order_date) AS year,
     EXTRACT(MONTH FROM order_date) AS month,
